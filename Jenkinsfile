@@ -8,6 +8,24 @@ pipeline {
       }
     
     }
+      stage ( 'package' ) {
+      steps {
+      sh "echo Hello"
+      }
+    
+    }
+      stage ( 'depoly' ) {
+      steps {
+      sh "echo Hello"
+      }
+    
+    }
+      stage ( 'artifact' ) {
+      steps {
+      sh "echo Hello"
+      }
+    
+    }
   
   }
 
